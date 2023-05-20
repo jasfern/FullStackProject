@@ -1,0 +1,19 @@
+.cache {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.cache p {
+    margin-bottom: 10px;
+}
+
+.cache p:last-child {
+    margin-bottom: 0;
+}
+

@@ -1,0 +1,35 @@
+.create-cache-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.create-cache-form label {
+    margin-bottom: 10px;
+}
+
+.create-cache-form input[type="text"], .create-cache-form input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.create-cache-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.create-cache-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
